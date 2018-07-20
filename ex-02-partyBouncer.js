@@ -26,7 +26,6 @@
 function partyBouncer(listOfPeople) {
   var newList = [];
   for (var i = 0; i < listOfPeople.length; i++) {
-    console.log(listOfPeople[i]);
     if (listOfPeople[i].age > 18 && listOfPeople[i].isFelon === false) {
       newList.push(listOfPeople[i].name);
     }
